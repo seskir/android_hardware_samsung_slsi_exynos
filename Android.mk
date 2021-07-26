@@ -109,12 +109,12 @@ ifeq ($(BOARD_HDMI_INCAPABLE), true)
 common_exynos_dirs += libhdmi_dummy
 else
 ifeq ($(BOARD_USES_VPP), true)
-common_exynos_dirs += libvpphdmi
+common_exynos_dirs += libhdmi_dummy
 else
 ifeq ($(BOARD_USES_NEW_HDMI), true)
-common_exynos_dirs += libhdmi
+common_exynos_dirs += libhdmi_dummy
 else
-common_exynos_dirs += libhdmi_legacy
+common_exynos_dirs += libhdmi_dummy
 endif
 endif
 endif

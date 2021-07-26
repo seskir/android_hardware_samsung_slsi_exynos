@@ -150,7 +150,7 @@ ifeq ($(TARGET_SOC), exynos5430)
        LOCAL_CFLAGS += -DUSES_DRM_SETTING_BY_DECON
 endif
 
-ifeq ($(TARGET_SOC), exynos5420)
+ifeq ($(TARGET_SOC), exynos5260)
        LOCAL_CFLAGS += -DUSES_DRM_SETTING_BY_DECON
 endif
 
